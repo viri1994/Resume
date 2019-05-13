@@ -1,0 +1,117 @@
+.contenedor{
+	display: flex;
+	width: 1200px;
+	margin:0 auto;
+	
+
+}
+
+/*ASIDE----Todo lo que esta en mi panel izquierdo*/
+aside {
+	background-color:#5C5A61;
+	width: 30%;
+	margin-right:4px;
+}
+aside * {
+	color:white;
+	text-align: justify;
+
+
+
+}
+aside h2{
+	letter-spacing: 5px;
+	text-align: center;
+
+}
+
+aside section h2:first-child{
+	border-bottom: 2px solid white;
+}
+ /*MAIN-----*/
+
+ main section > h2 {
+ 	text-transform: uppercase;
+ 	letter-spacing: 5px;
+ 	text-align: center;
+
+}
+
+
+ p{
+ 	line-height: 100%;
+
+ }
+
+.hero {
+	background-color:#D69787;
+	box-shadow: 5px 5px 20px 5px #8C807D inset; 
+	padding: 5% 0;
+	text-align: center;
+
+
+
+}
+
+.hero h2{
+	color:white;
+	border-top: 2px solid white;
+	letter-spacing: 5px;
+}
+
+.hero h1{
+	letter-spacing: 5px;
+}
+
+.hero h3{
+	font-weight: bold;
+}
+
+
+
+#profile-pic img{
+	border-radius: 50%;
+	max-width:150px;
+	max-height:150px;
+	display: block;
+	margin:auto;
+	padding: 25px;
+}
+
+
+#icon img{
+	width: 40px;
+	height: 40px;
+	
+}
+
+ul{
+	list-style-type:none;
+}
+
+h1,h2 {
+	text-transform: uppercase;
+}
+
+.panelderecho{
+	padding: 50px;
+}
+.formacion{
+	padding: 10px;
+}
+
+.Experiencia{
+	padding: 50px;
+
+}
+
+.idioma{
+	padding: 50px;
+}
+meter {
+	display:block;
+	width: 80%;
+}
+
+
+
